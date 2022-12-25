@@ -36,7 +36,7 @@ module.exports = {
       chainId: 86,
     },
     ethereum_mainnet: {
-      url: 'https://1rpc.io/eth',
+      url: 'https://eth.llamarpc.com',
       accounts: [process.env.PRIVATE_KEY],
       chainId: 1,
     },
@@ -64,7 +64,7 @@ module.exports = {
       url: 'https://astar.public.blastapi.io',
       accounts: [process.env.PRIVATE_KEY],
       chainId: 592,
-      gasPrice: Math.floor(20 / 10 ** 9),
+      gasPrice: Math.floor(50 / 10 ** 9),
     },
     wanchain_mainnet: {
       url: 'https://gwan-ssl.wandevs.org:56891',
