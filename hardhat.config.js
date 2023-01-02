@@ -25,11 +25,6 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
       chainId: 32520,
     },
-    telos_mainnet: {
-      url: 'https://rpc2.eu.telos.net/evm',
-      accounts: [process.env.PRIVATE_KEY],
-      chainId: 40,
-    },
     gatechain_mainnet: {
       url: 'https://evm.gatenode.cc',
       accounts: [process.env.PRIVATE_KEY],
@@ -75,6 +70,11 @@ module.exports = {
       url: 'https://exchainrpc.okex.org',
       accounts: [process.env.PRIVATE_KEY],
       chainId: 66,
+    },
+    telos_mainnet: {
+      url: 'https://mainnet.telos.net/evm',
+      accounts: [process.env.PRIVATE_KEY],
+      chainId: 40,
     },
   },
   etherscan: {
