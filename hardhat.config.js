@@ -56,10 +56,9 @@ module.exports = {
       chainId: 56,
     },
     astar_mainnet: {
-      url: 'https://astar.public.blastapi.io',
+      url: 'https://nodes.vefinetwork.org/astar',
       accounts: [process.env.PRIVATE_KEY],
-      chainId: 592,
-      gasPrice: Math.floor(50 / 10 ** 9),
+      chainId: 592
     },
     wanchain_mainnet: {
       url: 'https://gwan-ssl.wandevs.org:56891',
